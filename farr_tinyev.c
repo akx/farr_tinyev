@@ -1,3 +1,7 @@
+#ifdef _MSC_VER
+#pragma comment(lib, "user32")
+#endif
+
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #define JrPlugin_THISISDLL
